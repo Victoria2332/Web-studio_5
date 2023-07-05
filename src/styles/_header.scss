@@ -1,0 +1,13 @@
+header {
+  padding: $p-2;
+
+  display: flex;
+  justify-content: space-around;
+  
+  background-color: $white;
+}
+
+.header__image {
+  width: 15px;
+  height: 13px;
+}
