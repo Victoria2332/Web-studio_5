@@ -1,9 +1,10 @@
 // COLOR
-$light-blue: #0ed3ff;
+$light-blue: #2196F3;
 $white: #ffffff;
-$white-darken: #e6e3e3;
+$white-darken: #F5F4FA;
 $black: #000000;
-$gray: #2a2d34;
+$gray: #2F303A;
+$light-gray:#757575;
 $shadow: rgba(57, 63, 72, .83);
 
 // FONT-SIZE
@@ -15,11 +16,17 @@ $font-16: 16px;
 $font-18: 18px;
 $font-20: 20px;
 $font-24: 24px;
+$font-26: 26px;
 $font-28: 28px;
 $font-32: 32px;
 $font-36: 36px;
 $font-48: 48px;
 $font-80: 80px;
+
+//FONT-FAMILY
+
+$font-family: 'Raleway', sans-serif;
+$font-family: 'Roboto', sans-serif;
 
 // FONT-WEIGHT
 $font-w-100: 100;
