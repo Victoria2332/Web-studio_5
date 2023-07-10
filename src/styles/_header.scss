@@ -1,13 +1,23 @@
 header {
-  padding: $p-2;
-
-  display: flex;
-  justify-content: space-around;
+  padding: $p-1;
   
   background-color: $white;
 }
 
-.header__image {
-  width: 15px;
-  height: 13px;
+.header__block {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.header__link {
+  color: $light-gray;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: $light-blue;
+  svg path {
+  fill: $light-blue;}
 }

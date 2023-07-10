@@ -1,0 +1,37 @@
+main {  
+  background-color: $white;
+  width: 100%;
+
+  color: $white;
+}
+
+.section1{
+  height: 30rem;
+
+  background-image: url('https://avatars.mds.yandex.net/get-images-cbir/9426946/Hz7AuAQARKxOVZMmZucq5g8666/ocr');
+  background-size: 100% 100%;
+
+  font-family: $font-family;
+  color: $white;
+}
+
+.products__text {
+  font-weight: $font-w-900;
+  font-size: $font-44;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  padding: $p-11;
+}
+
+.section2 {
+  margin: $m-1;
+}
+
+]
+
+
+

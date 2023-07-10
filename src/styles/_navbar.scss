@@ -1,17 +1,16 @@
-.navigation {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .navigation__text {
-  font-family: $font-family;
+  font-family: $font-family-w;
   font-size: $font-26;
   font-weight: $font-w-700;
+  letter-spacing: 0.03em;
 }
 
 .navigation__text span {
-  color: #2196F3;
+  color: $light-blue;
+}
+
+.navigation {
+  align-self: center;
 }
 
 .navbar__lists {
@@ -25,6 +24,24 @@
   font-size: $font-16;
   padding: $p-1;
 }
+
+.navbar__link {
+  list-style: none;
+  text-decoration: none;
+
+  color: $black;
+}
+
+.navbar__link:hover {
+  padding-bottom: 8px;
+  border-bottom: 2px solid $light-blue;
+  text-transform: capitalize;
+
+  color: $light-blue;
+}
+
+
+
 
 
 
